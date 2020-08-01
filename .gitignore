@@ -1,0 +1,15 @@
+# ## macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ## idea ###
+.idea/
+*.iml
+
+# ## folder ###
+logs/
+target/
+
