@@ -6,11 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fundwap-backend-center" />
+        <module name="fundwap-biz" />
+        <module name="fundwap-config" />
+        <module name="fundwap-core" />
+        <module name="fundwap-devops" />
+        <module name="fundwap-gateway" />
+        <module name="fundwap-job" />
+        <module name="fundwap-monitor" />
+        <module name="fundwap-test" />
+        <module name="fundwap-trans" />
+        <module name="fundwap-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fundwap-backend-center" target="1.5" />
+      <module name="fundwap-biz" target="1.5" />
+      <module name="fundwap-config" target="1.5" />
+      <module name="fundwap-core" target="1.5" />
+      <module name="fundwap-devops" target="1.5" />
+      <module name="fundwap-gateway" target="1.5" />
+      <module name="fundwap-job" target="1.5" />
+      <module name="fundwap-monitor" target="1.5" />
+      <module name="fundwap-test" target="1.5" />
+      <module name="fundwap-trans" target="1.5" />
+      <module name="fundwap-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

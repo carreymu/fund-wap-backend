@@ -4,7 +4,21 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.fundwap-backend</groupId>
     <artifactId>control-center</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>fundwap-gateway</module>
+        <module>fundwap-core</module>
+        <module>fundwap-config</module>
+        <module>fundwap-biz</module>
+        <module>fundwap-job</module>
+        <module>fundwap-monitor</module>
+        <module>fundwap-test</module>
+        <module>fundwap-devops</module>
+        <module>fundwap-trans</module>
+        <module>fundwap-web</module>
+        <module>fundwap-security</module>
+    </modules>
     <name>control-center</name>
     <description>backend for fundwap</description>
 
