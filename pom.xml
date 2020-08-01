@@ -19,6 +19,8 @@
         <easy-captcha.version>1.6.2</easy-captcha.version>
         <fastjson.version>1.2.73</fastjson.version>
         <sharding-sphere.version>3.1.0</sharding-sphere.version>
+        <hutool-all.version>5.3.10</hutool-all.version>
+        <redisson-starter.version>3.13.2</redisson-starter.version>
     </properties>
 
     <dependencyManagement>
@@ -71,17 +73,29 @@
                 <artifactId>mybatis-plus-extension</artifactId>
                 <version>${mybatis-plus-boot-starter.version}</version>
             </dependency>
-            <!-- Verification code -->
+            <!-- verification code -->
             <dependency>
                 <groupId>com.github.whvcse</groupId>
                 <artifactId>easy-captcha</artifactId>
                 <version>${easy-captcha.version}</version>
             </dependency>
-            <!-- 分库分表 https://www.cnblogs.com/wuyongyin/p/13336373.html-->
+            <!-- split database and table https://www.cnblogs.com/wuyongyin/p/13336373.html-->
             <dependency>
                 <groupId>io.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${sharding-sphere.version}</version>
+            </dependency>
+            <!-- hutool java tookit  -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool-all.version}</version>
+            </dependency>
+            <!-- redis -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
