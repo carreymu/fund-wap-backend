@@ -13,6 +13,7 @@
         <module name="fundwap-gateway" />
         <module name="fundwap-job" />
         <module name="fundwap-monitor" />
+        <module name="fundwap-security" />
         <module name="fundwap-test" />
         <module name="fundwap-trans" />
         <module name="fundwap-web" />
@@ -27,6 +28,7 @@
       <module name="fundwap-gateway" target="1.5" />
       <module name="fundwap-job" target="1.5" />
       <module name="fundwap-monitor" target="1.5" />
+      <module name="fundwap-security" target="1.5" />
       <module name="fundwap-test" target="1.5" />
       <module name="fundwap-trans" target="1.5" />
       <module name="fundwap-web" target="1.5" />
