@@ -36,7 +36,7 @@
         <hutool-all.version>5.3.10</hutool-all.version>
         <redisson-starter.version>3.13.3</redisson-starter.version>
         <lombok.version>1.18.12</lombok.version>
-        <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
         <slf4j-api.version>2.0.0-alpha1</slf4j-api.version>
         <logback-classic.version>1.2.3</logback-classic.version>
     </properties>
