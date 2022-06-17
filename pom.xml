@@ -31,7 +31,7 @@
         <druid-spring-boot-starter.version>1.1.23</druid-spring-boot-starter.version>
         <mybatis-plus-boot-starter.version>3.3.2</mybatis-plus-boot-starter.version>
         <easy-captcha.version>1.6.2</easy-captcha.version>
-        <fastjson.version>1.2.73</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <sharding-sphere.version>3.1.0</sharding-sphere.version>
         <hutool-all.version>5.3.10</hutool-all.version>
         <redisson-starter.version>3.13.3</redisson-starter.version>
